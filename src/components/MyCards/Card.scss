@@ -1,0 +1,19 @@
+.card-container {
+  border: 1px solid #535353;
+  border-radius: 0.7rem;
+  width: 30%;
+
+  .logo-container {
+    display: flex;
+    padding: 1rem 0.5rem;
+    justify-content: space-between;
+  }
+
+  .my-logo {
+    width: 7rem;
+  }
+
+  .stack {
+    padding-top: 1.5rem;
+  }
+}
