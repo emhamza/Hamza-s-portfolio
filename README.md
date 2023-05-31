@@ -132,7 +132,6 @@ Example command:
 ```sh
   npx eslint "**/*.js" --fix
 ```
-
 ### Deployment
 
 You can deploy this project using:
