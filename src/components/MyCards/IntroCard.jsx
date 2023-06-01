@@ -1,6 +1,12 @@
+import { Button } from "reactstrap";
 import MyLogo  from "../../assets/My-logo.png";
 import profile  from "../../assets/profile.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
+
 
 
 import "./Card.scss";
@@ -37,7 +43,12 @@ const IntroCard = () => {
           </a>
         </ul>
       </div>
-
+      <div className="hire-me">
+          <Button>
+            <FontAwesomeIcon icon={faEnvelope} className="message-icon" />
+            Hire Me
+          </Button>
+      </div>
     </div>
   )
 }
