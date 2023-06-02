@@ -1,6 +1,11 @@
-.circular-border {
-  display: inline-block;
-  border: 1px solid #535353;
-  border-radius: 30%;
-  padding: 10px;
+.hero-header{
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 50px;
+    }
+
+    .hamza{
+        color: #28e98c;
+    }
 }
