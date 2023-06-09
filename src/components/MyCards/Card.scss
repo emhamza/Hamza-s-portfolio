@@ -1,7 +1,10 @@
 .card-container {
-  border: 1px solid #535353;
-  border-radius: 0.7rem;
-  width: 30%;
+  border: 2px solid #535353;
+  border-radius: 1rem;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
 
   .logo-container {
     display: flex;
@@ -15,5 +18,66 @@
 
   .stack {
     padding-top: 1.5rem;
+  }
+
+  .profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-pic img {
+    border-radius: 10%;
+    margin: 5% 0%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    border-color: #28e98c;
+    background-color: black;
+    color: #28e98c;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+  }
+
+  .hire-me {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hire-me button {
+    width: 85%;
+    margin: 3% 0;
+    background: #28e98c;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    padding: 1% 0;
+    font-size: large;
+  }
+
+  .message-icon {
+    margin: 5px  1.5% 0;
+    background: transparent;
   }
 }

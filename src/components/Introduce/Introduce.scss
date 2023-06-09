@@ -1,0 +1,19 @@
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5.5rem;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    opacity: 80%;
+  }
+
+  .hamza {
+    color: #28e98c;
+  }
+}
