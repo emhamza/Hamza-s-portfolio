@@ -1,6 +1,7 @@
 import "./Introduce.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const Introduce = () => {
   return (
@@ -16,7 +17,7 @@ const Introduce = () => {
           </div>
           <a href="#portfolio" className="go-to-project-btn scroll-to scroll-animation">
             <img decoding="async" src="https://wpriverthemes.com/drake/wp-content/uploads/2023/03/round-text.png" alt="Rounded Text" />
-            <i className="las la-arrow-down"></i>
+            <FontAwesomeIcon icon={faArrowDown}  className="arrow-d"/>
           </a>
           <div className="d-flex my-5 py-5">
             <div className="exp-block">
